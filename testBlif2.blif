@@ -1,0 +1,8 @@
+.model testBlif2
+.inputs n77 n69 n94 n62 n82 n85
+.outputs n61
+.names n62 n69 n76 n94 n61
+1111 1
+.names n77 n82 n85 n76
+011 1
+.end

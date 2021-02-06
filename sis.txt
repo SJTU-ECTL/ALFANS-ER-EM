@@ -1,0 +1,10 @@
+bigNode.pla   	pi= 3	po= 1	nodes=  1	latches= 0
+lits(sop)=   3	lits(fac)=   3
+bigNode_sim.pla	pi= 3	po= 1	nodes=  1	latches= 0
+lits(sop)=   1	lits(fac)=   1
+.model bigNode_sim.pla
+.inputs n229 n332 n206
+.outputs n207
+.names n206 n207
+0 1
+.end

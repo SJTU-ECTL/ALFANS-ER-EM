@@ -1,0 +1,128 @@
+rm -rf myLib
+# invalid command name "rm"
+vlib myLib
+# ** Warning: (vlib-34) Library already exists at "myLib".
+vmap work myLib
+# Modifying modelsim.ini
+
+
+
+vlog ./verilog_files/ckt_org.v 
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ckt_org
+# 
+# Top level modules:
+# 	ckt_org
+vlog ./verilog_files/ckt_sim.v
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ckt_sim
+# 
+# Top level modules:
+# 	ckt_sim
+vlog ./verilog_files/ckt_tb.v
+# Model Technology ModelSim ALTERA vlog 6.5e Compiler 2010.02 Feb 27 2010
+# -- Compiling module ckt_tb
+# 
+# Top level modules:
+# 	ckt_tb
+
+
+
+vsim -novopt -c ckt_tb
+# vsim -c -novopt ckt_tb 
+# Loading work.ckt_tb
+# Loading work.ckt_org
+# Loading work.ckt_sim
+
+
+
+run -all
+# 0000010, y_ini = 0, y_sim = 1
+# 
+# 0001101, y_ini = 0, y_sim = 1
+# 
+# 0001110, y_ini = 0, y_sim = 1
+# 
+# 0010101, y_ini = 0, y_sim = 1
+# 
+# 0010110, y_ini = 0, y_sim = 1
+# 
+# 0011001, y_ini = 0, y_sim = 1
+# 
+# 0011010, y_ini = 0, y_sim = 1
+# 
+# 0100000, y_ini = 0, y_sim = 1
+# 
+# 0100010, y_ini = 0, y_sim = 1
+# 
+# 0100100, y_ini = 0, y_sim = 1
+# 
+# 0100101, y_ini = 0, y_sim = 1
+# 
+# 0100111, y_ini = 0, y_sim = 1
+# 
+# 0101001, y_ini = 0, y_sim = 1
+# 
+# 0101100, y_ini = 0, y_sim = 1
+# 
+# 0101101, y_ini = 0, y_sim = 1
+# 
+# 0101110, y_ini = 0, y_sim = 1
+# 
+# 0101111, y_ini = 0, y_sim = 1
+# 
+# 0110000, y_ini = 0, y_sim = 1
+# 
+# 0110010, y_ini = 0, y_sim = 1
+# 
+# 0110011, y_ini = 0, y_sim = 1
+# 
+# 0111000, y_ini = 0, y_sim = 1
+# 
+# 0111001, y_ini = 0, y_sim = 1
+# 
+# 0111011, y_ini = 0, y_sim = 1
+# 
+# 0111111, y_ini = 0, y_sim = 1
+# 
+# 1000010, y_ini = 0, y_sim = 1
+# 
+# 1010001, y_ini = 0, y_sim = 1
+# 
+# 1100000, y_ini = 0, y_sim = 1
+# 
+# 1100011, y_ini = 0, y_sim = 1
+# 
+# 1100101, y_ini = 0, y_sim = 1
+# 
+# 1100110, y_ini = 0, y_sim = 1
+# 
+# 1101000, y_ini = 0, y_sim = 1
+# 
+# 1101001, y_ini = 0, y_sim = 1
+# 
+# 1101010, y_ini = 0, y_sim = 1
+# 
+# 1101011, y_ini = 0, y_sim = 1
+# 
+# 1101101, y_ini = 0, y_sim = 1
+# 
+# 1101110, y_ini = 0, y_sim = 1
+# 
+# 1110000, y_ini = 0, y_sim = 1
+# 
+# 1110011, y_ini = 0, y_sim = 1
+# 
+# 1110100, y_ini = 0, y_sim = 1
+# 
+# 1110111, y_ini = 0, y_sim = 1
+# 
+# 1111001, y_ini = 0, y_sim = 1
+# 
+# 1111010, y_ini = 0, y_sim = 1
+# 
+# 1111011, y_ini = 0, y_sim = 1
+# 
+# 1111100, y_ini = 0, y_sim = 1
+# 
+quit

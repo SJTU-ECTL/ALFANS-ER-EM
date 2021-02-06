@@ -1,0 +1,1883 @@
+.model compare_circuit_new
+.inputs x[0] x[1] x[2] x[3] x[4] x[5] x[6] x[7] x[8] x[9] x[10] x[11] x[12] \
+x[13] x[14] x[15] x[16] x[17] x[18] x[19] x[20] x[21] x[22] x[23] x[24] x[25] \
+x[26] x[27] x[28] x[29] x[30] x[31] y[0] y[1] y[2] y[3] y[4] y[5] y[6] y[7] \
+y[8] y[9] y[10] y[11] y[12] y[13] y[14] y[15] y[16] y[17] y[18] y[19] y[20] \
+y[21] y[22] y[23] y[24] y[25] y[26] y[27] y[28] y[29] y[30] y[31]
+.outputs s_comp
+.names s[32]_sub n7_comp s_comp
+1- 1
+-1 1
+.names x[0] y[0] n236
+1- 1
+-1 1
+.names x[0] y[0] n245
+0- 1
+-0 1
+.names n236 n245 s[0]
+11 1
+.names n107 n246 n247
+1- 1
+-0 1
+.names n247 n245 s[1]
+01 1
+10 1
+.names n107 n245 n246 n212
+--0 1
+00- 1
+.names n114 n249 n250
+1- 1
+-0 1
+.names n212 n250 s[2]
+11 1
+00 1
+.names n114 n249 n212 n161
+-0- 1
+0-1 1
+.names n127 n252 n253
+1- 1
+-0 1
+.names n161 n253 s[3]
+11 1
+00 1
+.names n217 n212 n216 n218
+0-0 1
+-00 1
+.names n104 n255 n256
+1- 1
+-0 1
+.names n218 n256 s[4]
+01 1
+10 1
+.names n104 n255 n218 n176
+11- 1
+-11 1
+.names n126 n258 n259
+1- 1
+-0 1
+.names n176 n259 s[5]
+01 1
+10 1
+.names n141 n190 n218 n223
+00- 1
+-01 1
+.names n113 n261 n262
+1- 1
+-0 1
+.names n223 n262 s[6]
+01 1
+10 1
+.names n223 n113 n261 n159
+--0 1
+00- 1
+.names n125 n264 n265
+1- 1
+-0 1
+.names n159 n265 s[7]
+11 1
+00 1
+.names n218 n266 n214 n215
+--0 1
+00- 1
+.names n112 n268 n269
+1- 1
+-0 1
+.names n215 n269 s[8]
+11 1
+00 1
+.names n112 n268 n215 n157
+-0- 1
+0-1 1
+.names n124 n271 n272
+1- 1
+-0 1
+.names n157 n272 s[9]
+11 1
+00 1
+.names n215 n182 n198 n244
+0-0 1
+-00 1
+.names n101 n274 n275
+1- 1
+-0 1
+.names n244 n275 s[10]
+01 1
+10 1
+.names n101 n274 n244 n174
+11- 1
+-11 1
+.names n123 n277 n278
+1- 1
+-0 1
+.names n174 n278 s[11]
+01 1
+10 1
+.names n196 n215 n279 n225
+0-- 1
+-10 1
+.names n103 n281 n282
+1- 1
+-0 1
+.names n225 n282 s[12]
+11 1
+00 1
+.names n103 n281 n225 n172
+11- 1
+-10 1
+.names n122 n284 n285
+1- 1
+-0 1
+.names n172 n285 s[13]
+01 1
+10 1
+.names n225 n183 n197 n242
+0-0 1
+-00 1
+.names n102 n287 n288
+1- 1
+-0 1
+.names n242 n288 s[14]
+01 1
+10 1
+.names n102 n287 n242 n170
+11- 1
+-11 1
+.names n121 n290 n291
+1- 1
+-0 1
+.names n170 n291 s[15]
+01 1
+10 1
+.names n215 n228 n227 n229
+0-0 1
+-00 1
+.names n100 n294 n295
+1- 1
+-0 1
+.names n229 n295 s[16]
+01 1
+10 1
+.names n100 n294 n229 n168
+11- 1
+-11 1
+.names n120 n297 n298
+1- 1
+-0 1
+.names n168 n298 s[17]
+01 1
+10 1
+.names n140 n189 n229 n222
+00- 1
+-01 1
+.names n111 n300 n301
+1- 1
+-0 1
+.names n222 n301 s[18]
+01 1
+10 1
+.names n222 n111 n300 n155
+--0 1
+00- 1
+.names n119 n303 n304
+1- 1
+-0 1
+.names n155 n304 s[19]
+11 1
+00 1
+.names n229 n305 n200 n240
+--0 1
+00- 1
+.names n110 n307 n308
+1- 1
+-0 1
+.names n240 n308 s[20]
+11 1
+00 1
+.names n110 n307 n240 n153
+-0- 1
+0-1 1
+.names n118 n310 n311
+1- 1
+-0 1
+.names n153 n311 s[21]
+11 1
+00 1
+.names n139 n188 n240 n224
+00- 1
+-00 1
+.names n109 n313 n314
+1- 1
+-0 1
+.names n224 n314 s[22]
+01 1
+10 1
+.names n224 n109 n313 n151
+--0 1
+00- 1
+.names n117 n316 n317
+1- 1
+-0 1
+.names n151 n317 s[23]
+11 1
+00 1
+.names n194 n229 n234 n226
+01- 1
+0-0 1
+.names n108 n320 n321
+1- 1
+-0 1
+.names n226 n321 s[24]
+01 1
+10 1
+.names n226 n108 n320 n149
+--0 1
+00- 1
+.names n116 n323 n324
+1- 1
+-0 1
+.names n149 n324 s[25]
+11 1
+00 1
+.names n138 n226 n191 n166
+0-0 1
+-10 1
+.names n99 n326 n327
+0- 1
+-0 1
+.names n166 n327 s[26]
+01 1
+10 1
+.names n226 n328 n202 n238
+--0 1
+00- 1
+.names n115 n330 n331
+1- 1
+-0 1
+.names n238 n331 s[27]
+11 1
+00 1
+.names n229 n332 n206 n207
+--0 1
+00- 1
+.names n98 n334 n335
+0- 1
+-0 1
+.names n207 n335 s[28]
+11 1
+00 1
+.names n98 n207 n334 n211
+0-1 1
+-01 1
+.names n106 n337 n338
+1- 1
+-0 1
+.names n211 n338 s[29]
+01 1
+10 1
+.names n211 n106 n337 n204
+--0 1
+00- 1
+.names n97 n340 n341
+0- 1
+-0 1
+.names n204 n341 s[30]
+11 1
+00 1
+.names n97 n204 n340 n209
+0-1 1
+-01 1
+.names n105 n343 n344
+1- 1
+-0 1
+.names n209 n344 s[31]
+01 1
+10 1
+.names x[31] y[31] n105
+00 1
+.names x[31] y[31] n343
+0- 1
+-0 1
+.names n209 n105 n343 cout
+--0 1
+00- 1
+.names x[30] y[30] n97
+1- 1
+-1 1
+.names x[28] y[28] n98
+1- 1
+-1 1
+.names x[26] y[26] n99
+1- 1
+-1 1
+.names x[16] y[16] n100
+00 1
+.names x[10] y[10] n101
+00 1
+.names x[14] y[14] n102
+00 1
+.names x[12] y[12] n103
+00 1
+.names x[4] y[4] n104
+00 1
+.names x[29] y[29] n106
+00 1
+.names x[1] y[1] n107
+00 1
+.names x[24] y[24] n108
+00 1
+.names x[22] y[22] n109
+00 1
+.names x[20] y[20] n110
+00 1
+.names x[18] y[18] n111
+00 1
+.names x[8] y[8] n112
+00 1
+.names x[6] y[6] n113
+00 1
+.names x[2] y[2] n114
+00 1
+.names x[27] y[27] n115
+00 1
+.names x[25] y[25] n116
+00 1
+.names x[23] y[23] n117
+00 1
+.names x[21] y[21] n118
+00 1
+.names x[19] y[19] n119
+00 1
+.names x[17] y[17] n120
+00 1
+.names x[15] y[15] n121
+00 1
+.names x[13] y[13] n122
+00 1
+.names x[11] y[11] n123
+00 1
+.names x[9] y[9] n124
+00 1
+.names x[7] y[7] n125
+00 1
+.names x[5] y[5] n126
+00 1
+.names x[3] y[3] n127
+00 1
+.names x[16] y[16] n294
+0- 1
+-0 1
+.names x[14] y[14] n287
+0- 1
+-0 1
+.names x[12] y[12] n281
+0- 1
+-0 1
+.names x[10] y[10] n274
+0- 1
+-0 1
+.names x[4] y[4] n255
+0- 1
+-0 1
+.names n108 n116 n138
+00 1
+.names n110 n118 n139
+00 1
+.names n100 n120 n140
+00 1
+.names n104 n126 n141
+00 1
+.names n109 n117 n142
+00 1
+.names n111 n119 n143
+00 1
+.names n101 n123 n144
+00 1
+.names n102 n121 n145
+00 1
+.names n200 n318 n193 n194
+--0 1
+00- 1
+.names n305 n318 n234
+00 1
+.names x[24] y[24] n320
+0- 1
+-0 1
+.names n118 n307 n310 n188
+--0 1
+00- 1
+.names x[22] y[22] n313
+0- 1
+-0 1
+.names x[20] y[20] n307
+0- 1
+-0 1
+.names n120 n294 n297 n189
+--0 1
+00- 1
+.names x[18] y[18] n300
+0- 1
+-0 1
+.names x[8] y[8] n268
+0- 1
+-0 1
+.names n126 n255 n258 n190
+--0 1
+00- 1
+.names x[6] y[6] n261
+0- 1
+-0 1
+.names x[2] y[2] n249
+0- 1
+-0 1
+.names x[25] y[25] n323
+0- 1
+-0 1
+.names n116 n320 n323 n191
+--0 1
+00- 1
+.names n144 n198 n195 n196
+0-0 1
+-00 1
+.names n182 n144 n279
+0- 1
+-0 1
+.names n112 n124 n182
+00 1
+.names n103 n122 n183
+00 1
+.names x[15] y[15] n290
+0- 1
+-0 1
+.names n121 n287 n290 n184
+--0 1
+00- 1
+.names x[13] y[13] n284
+0- 1
+-0 1
+.names n122 n281 n284 n197
+--0 1
+00- 1
+.names n145 n197 n184 n185
+0-0 1
+-00 1
+.names x[26] y[26] n326
+0- 1
+-0 1
+.names n99 n191 n326 n202
+0-1 1
+-01 1
+.names x[27] y[27] n330
+0- 1
+-0 1
+.names n202 n115 n330 n186
+--0 1
+00- 1
+.names x[7] y[7] n264
+0- 1
+-0 1
+.names n125 n261 n264 n187
+--0 1
+00- 1
+.names x[21] y[21] n310
+0- 1
+-0 1
+.names x[17] y[17] n297
+0- 1
+-0 1
+.names x[5] y[5] n258
+0- 1
+-0 1
+.names x[23] y[23] n316
+0- 1
+-0 1
+.names n117 n313 n316 n192
+--0 1
+00- 1
+.names n142 n188 n192 n193
+0-0 1
+-00 1
+.names n119 n300 n303 n199
+--0 1
+00- 1
+.names n143 n189 n199 n200
+0-0 1
+-00 1
+.names n139 n142 n318
+0- 1
+-0 1
+.names x[11] y[11] n277
+0- 1
+-0 1
+.names n123 n274 n277 n195
+--0 1
+00- 1
+.names x[9] y[9] n271
+0- 1
+-0 1
+.names n124 n268 n271 n198
+--0 1
+00- 1
+.names x[19] y[19] n303
+0- 1
+-0 1
+.names x[30] y[30] n340
+0- 1
+-0 1
+.names x[28] y[28] n334
+0- 1
+-0 1
+.names x[29] y[29] n337
+0- 1
+-0 1
+.names n138 n99 n328
+0- 1
+-0 1
+.names n328 n115 n205
+00 1
+.names n194 n205 n186 n206
+0-0 1
+-00 1
+.names n279 n292 n228
+00 1
+.names n196 n292 n185 n227
+--0 1
+00- 1
+.names n234 n205 n332
+0- 1
+-0 1
+.names x[1] y[1] n246
+0- 1
+-0 1
+.names n113 n125 n213
+00 1
+.names n213 n190 n187 n214
+0-0 1
+-00 1
+.names n114 n127 n217
+00 1
+.names n127 n249 n252 n216
+--0 1
+00- 1
+.names n141 n213 n266
+0- 1
+-0 1
+.names x[3] y[3] n252
+0- 1
+-0 1
+.names n140 n143 n305
+0- 1
+-0 1
+.names n183 n145 n292
+0- 1
+-0 1
+.names x[0] y[0] s[0]sim
+0- 1
+-0 1
+.names x[1] y[1] n107sim
+00 1
+.names x[1] y[1] n246sim
+0- 1
+-0 1
+.names x[2] y[2] n114sim
+00 1
+.names x[2] y[2] n249sim
+0- 1
+-0 1
+.names n114sim n249sim n250sim
+1- 1
+-0 1
+.names s[0]sim n246sim n212sim
+0- 1
+-0 1
+.names n114sim n249sim n212sim n161sim
+-0- 1
+0-1 1
+.names x[3] y[3] n127sim
+00 1
+.names x[3] y[3] n252sim
+0- 1
+-0 1
+.names n127sim n252sim n253sim
+1- 1
+-0 1
+.names n161sim n253sim s[3]sim
+11 1
+00 1
+.names n114sim n127sim n217sim
+00 1
+.names n249sim n252sim n216sim
+0- 1
+-0 1
+.names n217sim n212sim n216sim n218sim
+0-0 1
+-00 1
+.names x[4] y[4] n104sim
+00 1
+.names x[4] y[4] n255sim
+0- 1
+-0 1
+.names n104sim n255sim n256sim
+1- 1
+-0 1
+.names n218sim n256sim s[4]sim
+01 1
+10 1
+.names n104sim n255sim n218sim n176sim
+11- 1
+-11 1
+.names x[5] y[5] n126sim
+00 1
+.names x[5] y[5] n258sim
+0- 1
+-0 1
+.names n126sim n258sim n259sim
+1- 1
+-0 1
+.names n176sim n259sim s[5]sim
+01 1
+10 1
+.names n104sim n126sim n141sim
+00 1
+.names n126sim n255sim n258sim n190sim
+--0 1
+00- 1
+.names n141sim n190sim n218sim n223sim
+00- 1
+-01 1
+.names x[6] y[6] n113sim
+00 1
+.names x[6] y[6] n261sim
+0- 1
+-0 1
+.names n113sim n261sim n262sim
+1- 1
+-0 1
+.names n223sim n262sim s[6]sim
+01 1
+10 1
+.names n223sim n113sim n261sim n159sim
+--0 1
+00- 1
+.names x[7] y[7] n125sim
+00 1
+.names x[7] y[7] n264sim
+0- 1
+-0 1
+.names n125sim n264sim n265sim
+1- 1
+-0 1
+.names n159sim n265sim s[7]sim
+11 1
+00 1
+.names n113sim n125sim n213sim
+00 1
+.names n141sim n213sim n266sim
+0- 1
+-0 1
+.names n125sim n261sim n264sim n187sim
+--0 1
+00- 1
+.names n213sim n190sim n187sim n214sim
+0-0 1
+-00 1
+.names n218sim n266sim n214sim n215sim
+--0 1
+00- 1
+.names x[8] y[8] n112sim
+00 1
+.names x[8] y[8] n268sim
+0- 1
+-0 1
+.names n112sim n268sim n269sim
+1- 1
+-0 1
+.names n215sim n269sim s[8]sim
+11 1
+00 1
+.names n112sim n268sim n215sim n157sim
+-0- 1
+0-1 1
+.names x[9] y[9] n124sim
+00 1
+.names x[9] y[9] n271sim
+0- 1
+-0 1
+.names n124sim n271sim n272sim
+1- 1
+-0 1
+.names n157sim n272sim s[9]sim
+11 1
+00 1
+.names n112sim n124sim n182sim
+00 1
+.names n124sim n268sim n271sim n198sim
+--0 1
+00- 1
+.names n215sim n182sim n198sim n244sim
+0-0 1
+-00 1
+.names x[10] y[10] n101sim
+00 1
+.names x[10] y[10] n274sim
+0- 1
+-0 1
+.names n101sim n274sim n275sim
+1- 1
+-0 1
+.names n244sim n275sim s[10]sim
+01 1
+10 1
+.names n101sim n274sim n244sim n174sim
+11- 1
+-11 1
+.names x[11] y[11] n123sim
+00 1
+.names x[11] y[11] n277sim
+0- 1
+-0 1
+.names n123sim n277sim n278sim
+1- 1
+-0 1
+.names n174sim n278sim s[11]sim
+01 1
+10 1
+.names n101sim n123sim n144sim
+00 1
+.names n123sim n274sim n277sim n195sim
+--0 1
+00- 1
+.names n144sim n198sim n195sim n196sim
+0-0 1
+-00 1
+.names n182sim n144sim n279sim
+0- 1
+-0 1
+.names n196sim n215sim n279sim n225sim
+0-- 1
+-10 1
+.names x[12] y[12] n103sim
+00 1
+.names x[12] y[12] n281sim
+0- 1
+-0 1
+.names n103sim n281sim n282sim
+1- 1
+-0 1
+.names n225sim n282sim s[12]sim
+11 1
+00 1
+.names n103sim n281sim n225sim n172sim
+11- 1
+-10 1
+.names x[13] y[13] n122sim
+00 1
+.names x[13] y[13] n284sim
+0- 1
+-0 1
+.names n122sim n284sim n285sim
+1- 1
+-0 1
+.names n172sim n285sim s[13]sim
+01 1
+10 1
+.names n103sim n122sim n183sim
+00 1
+.names n122sim n281sim n284sim n197sim
+--0 1
+00- 1
+.names n225sim n183sim n197sim n242sim
+0-0 1
+-00 1
+.names x[14] y[14] n102sim
+00 1
+.names x[14] y[14] n287sim
+0- 1
+-0 1
+.names n102sim n287sim n288sim
+1- 1
+-0 1
+.names n242sim n288sim s[14]sim
+01 1
+10 1
+.names n102sim n287sim n242sim n170sim
+11- 1
+-11 1
+.names x[15] y[15] n121sim
+00 1
+.names x[15] y[15] n290sim
+0- 1
+-0 1
+.names n121sim n290sim n291sim
+1- 1
+-0 1
+.names n170sim n291sim s[15]sim
+01 1
+10 1
+.names n102sim n121sim n145sim
+00 1
+.names n183sim n145sim n292sim
+0- 1
+-0 1
+.names n279sim n292sim n228sim
+00 1
+.names n121sim n287sim n290sim n184sim
+--0 1
+00- 1
+.names n145sim n197sim n184sim n185sim
+0-0 1
+-00 1
+.names n196sim n292sim n185sim n227sim
+--0 1
+00- 1
+.names n215sim n228sim n227sim n229sim
+0-0 1
+-00 1
+.names x[16] y[16] n100sim
+00 1
+.names x[16] y[16] n294sim
+0- 1
+-0 1
+.names n100sim n294sim n295sim
+1- 1
+-0 1
+.names n229sim n295sim s[16]sim
+01 1
+10 1
+.names n100sim n294sim n229sim n168sim
+11- 1
+-11 1
+.names x[17] y[17] n120sim
+00 1
+.names x[17] y[17] n297sim
+0- 1
+-0 1
+.names n120sim n297sim n298sim
+1- 1
+-0 1
+.names n168sim n298sim s[17]sim
+01 1
+10 1
+.names n100sim n120sim n140sim
+00 1
+.names n120sim n294sim n297sim n189sim
+--0 1
+00- 1
+.names n140sim n189sim n229sim n222sim
+00- 1
+-01 1
+.names x[18] y[18] n111sim
+00 1
+.names x[18] y[18] n300sim
+0- 1
+-0 1
+.names n111sim n300sim n301sim
+1- 1
+-0 1
+.names n222sim n301sim s[18]sim
+01 1
+10 1
+.names n222sim n111sim n300sim n155sim
+--0 1
+00- 1
+.names x[19] y[19] n119sim
+00 1
+.names x[19] y[19] n303sim
+0- 1
+-0 1
+.names n119sim n303sim n304sim
+1- 1
+-0 1
+.names n155sim n304sim s[19]sim
+11 1
+00 1
+.names n111sim n119sim n143sim
+00 1
+.names n140sim n143sim n305sim
+0- 1
+-0 1
+.names n119sim n300sim n303sim n199sim
+--0 1
+00- 1
+.names n143sim n189sim n199sim n200sim
+0-0 1
+-00 1
+.names n229sim n305sim n200sim n240sim
+--0 1
+00- 1
+.names x[20] y[20] n110sim
+00 1
+.names x[20] y[20] n307sim
+0- 1
+-0 1
+.names n110sim n307sim n308sim
+1- 1
+-0 1
+.names n240sim n308sim s[20]sim
+11 1
+00 1
+.names n110sim n307sim n240sim n153sim
+-0- 1
+0-1 1
+.names x[21] y[21] n118sim
+00 1
+.names x[21] y[21] n310sim
+0- 1
+-0 1
+.names n118sim n310sim n311sim
+1- 1
+-0 1
+.names n153sim n311sim s[21]sim
+11 1
+00 1
+.names n110sim n118sim n139sim
+00 1
+.names n118sim n307sim n310sim n188sim
+--0 1
+00- 1
+.names n139sim n188sim n240sim n224sim
+00- 1
+-00 1
+.names x[22] y[22] n109sim
+00 1
+.names x[22] y[22] n313sim
+0- 1
+-0 1
+.names n109sim n313sim n314sim
+1- 1
+-0 1
+.names n224sim n314sim s[22]sim
+01 1
+10 1
+.names n224sim n109sim n313sim n151sim
+--0 1
+00- 1
+.names x[23] y[23] n117sim
+00 1
+.names x[23] y[23] n316sim
+0- 1
+-0 1
+.names n117sim n316sim n317sim
+1- 1
+-0 1
+.names n151sim n317sim s[23]sim
+11 1
+00 1
+.names n109sim n117sim n142sim
+00 1
+.names n139sim n142sim n318sim
+0- 1
+-0 1
+.names n117sim n313sim n316sim n192sim
+--0 1
+00- 1
+.names n142sim n188sim n192sim n193sim
+0-0 1
+-00 1
+.names n200sim n318sim n193sim n194sim
+--0 1
+00- 1
+.names n305sim n318sim n234sim
+00 1
+.names n194sim n229sim n234sim n226sim
+01- 1
+0-0 1
+.names x[24] y[24] n108sim
+00 1
+.names x[24] y[24] n320sim
+0- 1
+-0 1
+.names n108sim n320sim n321sim
+1- 1
+-0 1
+.names n226sim n321sim s[24]sim
+01 1
+10 1
+.names n226sim n108sim n320sim n149sim
+--0 1
+00- 1
+.names x[25] y[25] n116sim
+00 1
+.names x[25] y[25] n323sim
+0- 1
+-0 1
+.names n116sim n323sim n324sim
+1- 1
+-0 1
+.names n149sim n324sim s[25]sim
+11 1
+00 1
+.names n108sim n116sim n138sim
+00 1
+.names n116sim n320sim n323sim n191sim
+--0 1
+00- 1
+.names n138sim n226sim n191sim n166sim
+0-0 1
+-10 1
+.names x[26] y[26] n99sim
+1- 1
+-1 1
+.names x[26] y[26] n326sim
+0- 1
+-0 1
+.names n99sim n326sim n327sim
+0- 1
+-0 1
+.names n166sim n327sim s[26]sim
+01 1
+10 1
+.names n138sim n99sim n328sim
+0- 1
+-0 1
+.names n99sim n191sim n326sim n202sim
+0-1 1
+-01 1
+.names n226sim n328sim n202sim n238sim
+--0 1
+00- 1
+.names x[27] y[27] n115sim
+00 1
+.names x[27] y[27] n330sim
+0- 1
+-0 1
+.names n115sim n330sim n331sim
+1- 1
+-0 1
+.names n238sim n331sim s[27]sim
+11 1
+00 1
+.names x[28] y[28] n98sim
+1- 1
+-1 1
+.names x[28] y[28] n334sim
+0- 1
+-0 1
+.names n98sim n334sim n335sim
+0- 1
+-0 1
+.names x[29] y[29] n106sim
+00 1
+.names x[29] y[29] n337sim
+0- 1
+-0 1
+.names n106sim n337sim n338sim
+1- 1
+-0 1
+.names n334sim n338sim s[29]sim
+01 1
+10 1
+.names n334sim n106sim n337sim n204sim
+--0 1
+00- 1
+.names x[30] y[30] n97sim
+1- 1
+-1 1
+.names x[30] y[30] n340sim
+0- 1
+-0 1
+.names n97sim n340sim n341sim
+0- 1
+-0 1
+.names n204sim n341sim s[30]sim
+11 1
+00 1
+.names n97sim n204sim n340sim n209sim
+0-1 1
+-01 1
+.names x[31] y[31] n105sim
+00 1
+.names x[31] y[31] n343sim
+0- 1
+-0 1
+.names n105sim n343sim n344sim
+1- 1
+-0 1
+.names n209sim n344sim s[31]sim
+01 1
+10 1
+.names n209sim n105sim n343sim coutsim
+--0 1
+00- 1
+.names n107sim n246sim n247sim
+1- 1
+-0 1
+.names n212sim n250sim s[2]sim
+1- 1
+-0 1
+.names cout coutsim n168_sub n167_sub
+1-0 1
+-00 1
+.names s[9] s[9]sim n167_sub n101_sub
+-11 1
+1-0 1
+.names s[8] s[8]sim n167_sub n102_sub
+-11 1
+1-0 1
+.names s[7] s[7]sim n167_sub n103_sub
+-11 1
+1-0 1
+.names s[6] s[6]sim n167_sub n104_sub
+-11 1
+1-0 1
+.names s[5] s[5]sim n167_sub n105_sub
+-11 1
+1-0 1
+.names s[4] s[4]sim n167_sub n106_sub
+-11 1
+1-0 1
+.names cout coutsim n167_sub n107_sub
+-11 1
+1-0 1
+.names s[31] s[31]sim n167_sub n108_sub
+-11 1
+1-0 1
+.names s[30] s[30]sim n167_sub n109_sub
+-11 1
+1-0 1
+.names s[3] s[3]sim n167_sub n110_sub
+-11 1
+1-0 1
+.names s[29] s[29]sim n167_sub n111_sub
+-11 1
+1-0 1
+.names s[28] n335sim n167_sub n112_sub
+-01 1
+1-0 1
+.names s[27] s[27]sim n167_sub n113_sub
+-11 1
+1-0 1
+.names s[26] s[26]sim n167_sub n114_sub
+-11 1
+1-0 1
+.names s[25] s[25]sim n167_sub n115_sub
+-11 1
+1-0 1
+.names s[24] s[24]sim n167_sub n116_sub
+-11 1
+1-0 1
+.names s[23] s[23]sim n167_sub n117_sub
+-11 1
+1-0 1
+.names s[22] s[22]sim n167_sub n118_sub
+-11 1
+1-0 1
+.names s[21] s[21]sim n167_sub n119_sub
+-11 1
+1-0 1
+.names s[20] s[20]sim n167_sub n120_sub
+-11 1
+1-0 1
+.names s[2] s[2]sim n167_sub n121_sub
+-11 1
+1-0 1
+.names s[19] s[19]sim n167_sub n122_sub
+-11 1
+1-0 1
+.names s[18] s[18]sim n167_sub n123_sub
+-11 1
+1-0 1
+.names s[17] s[17]sim n167_sub n124_sub
+-11 1
+1-0 1
+.names s[16] s[16]sim n167_sub n125_sub
+-11 1
+1-0 1
+.names s[15] s[15]sim n167_sub n126_sub
+-11 1
+1-0 1
+.names s[14] s[14]sim n167_sub n127_sub
+-11 1
+1-0 1
+.names s[13] s[13]sim n167_sub n128_sub
+-11 1
+1-0 1
+.names s[12] s[12]sim n167_sub n129_sub
+-11 1
+1-0 1
+.names s[11] s[11]sim n167_sub n130_sub
+-11 1
+1-0 1
+.names s[10] s[10]sim n167_sub n131_sub
+-11 1
+1-0 1
+.names s[1] n247sim n167_sub n132_sub
+-01 1
+1-0 1
+.names s[0] s[0]sim n167_sub n133_sub
+-11 1
+1-0 1
+.names s[9] s[9]sim n167_sub n134_sub
+1-1 1
+-10 1
+.names s[8] s[8]sim n167_sub n135_sub
+1-1 1
+-10 1
+.names s[7] s[7]sim n167_sub n136_sub
+1-1 1
+-10 1
+.names s[6] s[6]sim n167_sub n137_sub
+1-1 1
+-10 1
+.names s[5] s[5]sim n167_sub n138_sub
+1-1 1
+-10 1
+.names s[4] s[4]sim n167_sub n139_sub
+1-1 1
+-10 1
+.names cout coutsim n140_sub
+1- 1
+-1 1
+.names s[31] s[31]sim n167_sub n141_sub
+1-1 1
+-10 1
+.names s[30] s[30]sim n167_sub n142_sub
+1-1 1
+-10 1
+.names s[3] s[3]sim n167_sub n143_sub
+1-1 1
+-10 1
+.names s[29] s[29]sim n167_sub n144_sub
+1-1 1
+-10 1
+.names s[28] n335sim n167_sub n145_sub
+1-1 1
+-00 1
+.names s[27] s[27]sim n167_sub n146_sub
+1-1 1
+-10 1
+.names s[26] s[26]sim n167_sub n147_sub
+1-1 1
+-10 1
+.names s[25] s[25]sim n167_sub n148_sub
+1-1 1
+-10 1
+.names s[24] s[24]sim n167_sub n149_sub
+1-1 1
+-10 1
+.names s[23] s[23]sim n167_sub n150_sub
+1-1 1
+-10 1
+.names s[22] s[22]sim n167_sub n151_sub
+1-1 1
+-10 1
+.names s[21] s[21]sim n167_sub n152_sub
+1-1 1
+-10 1
+.names s[20] s[20]sim n167_sub n153_sub
+1-1 1
+-10 1
+.names s[2] s[2]sim n167_sub n154_sub
+1-1 1
+-10 1
+.names s[19] s[19]sim n167_sub n155_sub
+1-1 1
+-10 1
+.names s[18] s[18]sim n167_sub n156_sub
+1-1 1
+-10 1
+.names s[17] s[17]sim n167_sub n157_sub
+1-1 1
+-10 1
+.names s[16] s[16]sim n167_sub n158_sub
+1-1 1
+-10 1
+.names s[15] s[15]sim n167_sub n159_sub
+1-1 1
+-10 1
+.names s[14] s[14]sim n167_sub n160_sub
+1-1 1
+-10 1
+.names s[13] s[13]sim n167_sub n161_sub
+1-1 1
+-10 1
+.names s[12] s[12]sim n167_sub n162_sub
+1-1 1
+-10 1
+.names s[11] s[11]sim n167_sub n163_sub
+1-1 1
+-10 1
+.names s[10] s[10]sim n167_sub n164_sub
+1-1 1
+-10 1
+.names s[1] n247sim n167_sub n165_sub
+1-1 1
+-00 1
+.names s[0] s[0]sim n167_sub n166_sub
+1-1 1
+-10 1
+.names s[31] cout s[31]sim coutsim n170_sub n168_sub
+00--1 1
+-01-1 1
+0--11 1
+--111 1
+.names s[30] s[31] s[30]sim s[31]sim n171_sub n170_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[29] s[30] s[29]sim s[30]sim n172_sub n171_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[28] s[29] n335sim s[29]sim n173_sub n172_sub
+----0 1
+0-0-- 1
+-0-1- 1
+.names s[27] s[28] s[27]sim n335sim n174_sub n173_sub
+----0 1
+1-0-- 1
+-1-1- 1
+.names s[26] s[27] s[26]sim s[27]sim n175_sub n174_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[25] s[26] s[25]sim s[26]sim n176_sub n175_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[24] s[25] s[24]sim s[25]sim n177_sub n176_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[23] s[24] s[23]sim s[24]sim n178_sub n177_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[22] s[23] s[22]sim s[23]sim n179_sub n178_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[21] s[22] s[21]sim s[22]sim n180_sub n179_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[20] s[21] s[20]sim s[21]sim n181_sub n180_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[19] s[20] s[19]sim s[20]sim n182_sub n181_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[18] s[19] s[18]sim s[19]sim n183_sub n182_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[17] s[18] s[17]sim s[18]sim n184_sub n183_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[16] s[17] s[16]sim s[17]sim n185_sub n184_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[15] s[16] s[15]sim s[16]sim n186_sub n185_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[14] s[15] s[14]sim s[15]sim n187_sub n186_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[13] s[14] s[13]sim s[14]sim n188_sub n187_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[12] s[13] s[12]sim s[13]sim n189_sub n188_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[11] s[12] s[11]sim s[12]sim n190_sub n189_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[10] s[11] s[10]sim s[11]sim n191_sub n190_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[9] s[10] s[9]sim s[10]sim n192_sub n191_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[8] s[9] s[8]sim s[9]sim n193_sub n192_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[7] s[8] s[7]sim s[8]sim n194_sub n193_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[6] s[7] s[6]sim s[7]sim n195_sub n194_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[5] s[6] s[5]sim s[6]sim n196_sub n195_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[4] s[5] s[4]sim s[5]sim n197_sub n196_sub
+----0 1
+0-1-- 1
+-0-1- 1
+.names s[3] s[4] s[3]sim s[4]sim n198_sub n197_sub
+----0 1
+1-0-- 1
+-1-0- 1
+.names s[2] s[3] s[3]sim s[2]sim n199_sub n198_sub
+----0 1
+-01-- 1
+0--1- 1
+.names s[1] s[2] s[2]sim n204_sub n201_sub n199_sub
+----1 1
+-10-- 1
+1--0- 1
+.names s[0] s[0]sim n204_sub
+01 1
+.names s[1] n247sim n204_sub n201_sub
+11- 1
+-10 1
+.names n133_sub n166_sub n266_sub
+0- 1
+-1 1
+.names n266_sub n166_sub n133_sub s[0]_sub
+0-- 1
+-10 1
+.names n266_sub n165_sub n132_sub n268_sub
+1-0 1
+-10 1
+.names n165_sub n266_sub n268_sub n269_sub
+0-0 1
+-00 1
+.names n269_sub n154_sub n121_sub n270_sub
+0-0 1
+-10 1
+.names n154_sub n269_sub n270_sub n271_sub
+0-0 1
+-10 1
+.names n271_sub n143_sub n110_sub n272_sub
+0-0 1
+-10 1
+.names n272_sub n143_sub n271_sub n273_sub
+1-- 1
+-10 1
+.names n106_sub n273_sub n139_sub n274_sub
+1-- 1
+-00 1
+.names n139_sub n273_sub n274_sub n275_sub
+0-1 1
+-01 1
+.names n275_sub n138_sub n105_sub n276_sub
+0-0 1
+-10 1
+.names n138_sub n275_sub n276_sub n277_sub
+0-0 1
+-10 1
+.names n137_sub n277_sub n278_sub
+01 1
+.names n104_sub n278_sub n277_sub n137_sub n279_sub
+00-- 1
+--01 1
+.names n279_sub n136_sub n103_sub n280_sub
+1-0 1
+-10 1
+.names n136_sub n279_sub n280_sub n281_sub
+0-0 1
+-00 1
+.names n281_sub n135_sub n102_sub n282_sub
+0-0 1
+-10 1
+.names n135_sub n281_sub n282_sub n283_sub
+0-0 1
+-10 1
+.names n283_sub n134_sub n101_sub n284_sub
+0-0 1
+-10 1
+.names n284_sub n134_sub n283_sub n285_sub
+1-- 1
+-10 1
+.names n164_sub n131_sub n286_sub
+11 1
+00 1
+.names n285_sub n286_sub s[10]_sub
+01 1
+10 1
+.names n285_sub n164_sub n131_sub n288_sub
+1-0 1
+-10 1
+.names n164_sub n285_sub n288_sub n289_sub
+0-0 1
+-00 1
+.names n163_sub n130_sub n290_sub
+11 1
+00 1
+.names n289_sub n290_sub s[11]_sub
+11 1
+00 1
+.names n289_sub n163_sub n130_sub n292_sub
+0-0 1
+-10 1
+.names n292_sub n163_sub n289_sub n293_sub
+1-- 1
+-10 1
+.names n162_sub n129_sub n294_sub
+11 1
+00 1
+.names n293_sub n294_sub s[12]_sub
+01 1
+10 1
+.names n129_sub n293_sub n162_sub n296_sub
+1-- 1
+-00 1
+.names n162_sub n293_sub n296_sub n297_sub
+0-1 1
+-01 1
+.names n161_sub n128_sub n298_sub
+11 1
+00 1
+.names n297_sub n298_sub s[13]_sub
+11 1
+00 1
+.names n161_sub n297_sub n300_sub
+01 1
+.names n128_sub n300_sub n297_sub n161_sub n301_sub
+00-- 1
+--01 1
+.names n160_sub n127_sub n302_sub
+11 1
+00 1
+.names n301_sub n302_sub s[14]_sub
+01 1
+10 1
+.names n301_sub n160_sub n127_sub n304_sub
+1-0 1
+-10 1
+.names n160_sub n301_sub n304_sub n305_sub
+0-0 1
+-00 1
+.names n159_sub n126_sub n306_sub
+11 1
+00 1
+.names n305_sub n306_sub s[15]_sub
+11 1
+00 1
+.names n305_sub n159_sub n126_sub n308_sub
+0-0 1
+-10 1
+.names n159_sub n305_sub n308_sub n309_sub
+0-0 1
+-10 1
+.names n158_sub n125_sub n310_sub
+11 1
+00 1
+.names n309_sub n310_sub s[16]_sub
+11 1
+00 1
+.names n309_sub n158_sub n125_sub n312_sub
+0-0 1
+-10 1
+.names n312_sub n158_sub n309_sub n313_sub
+1-- 1
+-10 1
+.names n157_sub n124_sub n314_sub
+11 1
+00 1
+.names n313_sub n314_sub s[17]_sub
+01 1
+10 1
+.names n124_sub n313_sub n157_sub n316_sub
+1-- 1
+-00 1
+.names n157_sub n313_sub n316_sub n317_sub
+0-1 1
+-01 1
+.names n156_sub n123_sub n318_sub
+11 1
+00 1
+.names n317_sub n318_sub s[18]_sub
+11 1
+00 1
+.names n317_sub n156_sub n123_sub n320_sub
+0-0 1
+-10 1
+.names n320_sub n156_sub n317_sub n321_sub
+1-- 1
+-10 1
+.names n155_sub n122_sub n322_sub
+11 1
+00 1
+.names n321_sub n322_sub s[19]_sub
+01 1
+10 1
+.names n132_sub n165_sub n324_sub
+01 1
+10 1
+.names n266_sub n324_sub s[1]_sub
+11 1
+00 1
+.names n122_sub n321_sub n155_sub n326_sub
+1-- 1
+-00 1
+.names n155_sub n321_sub n326_sub n327_sub
+0-1 1
+-01 1
+.names n153_sub n120_sub n328_sub
+11 1
+00 1
+.names n327_sub n328_sub s[20]_sub
+11 1
+00 1
+.names n153_sub n327_sub n330_sub
+01 1
+.names n120_sub n330_sub n327_sub n153_sub n331_sub
+00-- 1
+--01 1
+.names n152_sub n119_sub n332_sub
+11 1
+00 1
+.names n331_sub n332_sub s[21]_sub
+01 1
+10 1
+.names n331_sub n152_sub n119_sub n334_sub
+1-0 1
+-10 1
+.names n152_sub n331_sub n334_sub n335_sub
+0-0 1
+-00 1
+.names n151_sub n118_sub n336_sub
+11 1
+00 1
+.names n335_sub n336_sub s[22]_sub
+11 1
+00 1
+.names n335_sub n151_sub n118_sub n338_sub
+0-0 1
+-10 1
+.names n151_sub n335_sub n338_sub n339_sub
+0-0 1
+-10 1
+.names n150_sub n117_sub n340_sub
+11 1
+00 1
+.names n339_sub n340_sub s[23]_sub
+11 1
+00 1
+.names n339_sub n150_sub n117_sub n342_sub
+0-0 1
+-10 1
+.names n342_sub n150_sub n339_sub n343_sub
+1-- 1
+-10 1
+.names n149_sub n116_sub n344_sub
+11 1
+00 1
+.names n343_sub n344_sub s[24]_sub
+01 1
+10 1
+.names n116_sub n343_sub n149_sub n346_sub
+1-- 1
+-00 1
+.names n149_sub n343_sub n346_sub n347_sub
+0-1 1
+-01 1
+.names n148_sub n115_sub n348_sub
+11 1
+00 1
+.names n347_sub n348_sub s[25]_sub
+11 1
+00 1
+.names n347_sub n148_sub n115_sub n350_sub
+0-0 1
+-10 1
+.names n148_sub n347_sub n350_sub n351_sub
+0-0 1
+-10 1
+.names n147_sub n114_sub n352_sub
+11 1
+00 1
+.names n351_sub n352_sub s[26]_sub
+11 1
+00 1
+.names n147_sub n351_sub n354_sub
+01 1
+.names n114_sub n354_sub n351_sub n147_sub n355_sub
+00-- 1
+--01 1
+.names n146_sub n113_sub n356_sub
+11 1
+00 1
+.names n355_sub n356_sub s[27]_sub
+01 1
+10 1
+.names n355_sub n146_sub n113_sub n358_sub
+1-0 1
+-10 1
+.names n146_sub n355_sub n358_sub n359_sub
+0-0 1
+-00 1
+.names n112_sub n145_sub n360_sub
+01 1
+10 1
+.names n359_sub n360_sub s[28]_sub
+01 1
+10 1
+.names n359_sub n145_sub n112_sub n362_sub
+0-0 1
+-10 1
+.names n362_sub n145_sub n359_sub n363_sub
+1-- 1
+-10 1
+.names n144_sub n111_sub n364_sub
+11 1
+00 1
+.names n363_sub n364_sub s[29]_sub
+01 1
+10 1
+.names n154_sub n121_sub n366_sub
+11 1
+00 1
+.names n269_sub n366_sub s[2]_sub
+11 1
+00 1
+.names n363_sub n144_sub n111_sub n368_sub
+1-0 1
+-10 1
+.names n144_sub n363_sub n368_sub n369_sub
+0-0 1
+-00 1
+.names n142_sub n109_sub n370_sub
+11 1
+00 1
+.names n369_sub n370_sub s[30]_sub
+11 1
+00 1
+.names n369_sub n142_sub n109_sub n372_sub
+0-0 1
+-10 1
+.names n142_sub n369_sub n372_sub n373_sub
+0-0 1
+-10 1
+.names n141_sub n108_sub n374_sub
+11 1
+00 1
+.names n373_sub n374_sub s[31]_sub
+11 1
+00 1
+.names n373_sub n141_sub n108_sub n376_sub
+0-0 1
+-10 1
+.names n141_sub n373_sub n376_sub n377_sub
+0-0 1
+-10 1
+.names n107_sub n140_sub n378_sub
+11 1
+00 1
+.names n377_sub n378_sub s[32]_sub
+11 1
+00 1
+.names n143_sub n110_sub n380_sub
+11 1
+00 1
+.names n271_sub n380_sub s[3]_sub
+11 1
+00 1
+.names n139_sub n106_sub n382_sub
+11 1
+00 1
+.names n273_sub n382_sub s[4]_sub
+01 1
+10 1
+.names n138_sub n105_sub n384_sub
+11 1
+00 1
+.names n275_sub n384_sub s[5]_sub
+11 1
+00 1
+.names n137_sub n104_sub n386_sub
+11 1
+00 1
+.names n277_sub n386_sub s[6]_sub
+11 1
+00 1
+.names n136_sub n103_sub n388_sub
+11 1
+00 1
+.names n279_sub n388_sub s[7]_sub
+01 1
+10 1
+.names n102_sub n135_sub n390_sub
+01 1
+10 1
+.names n281_sub n390_sub s[8]_sub
+01 1
+10 1
+.names n134_sub n101_sub n392_sub
+11 1
+00 1
+.names n283_sub n392_sub s[9]_sub
+11 1
+00 1
+.names s[30]_sub s[31]_sub n13_comp n7_comp
+1-- 1
+-1- 1
+--1 1
+.names s[28]_sub s[29]_sub n19_comp n13_comp
+1-- 1
+-1- 1
+--1 1
+.names s[26]_sub s[27]_sub n25_comp n19_comp
+1-- 1
+-1- 1
+--1 1
+.names s[24]_sub s[25]_sub n31_comp n25_comp
+1-- 1
+-1- 1
+--1 1
+.names s[22]_sub s[23]_sub n37_comp n31_comp
+1-- 1
+-1- 1
+--1 1
+.names s[20]_sub s[21]_sub n43_comp n37_comp
+1-- 1
+-1- 1
+--1 1
+.names s[18]_sub s[19]_sub n49_comp n43_comp
+1-- 1
+-1- 1
+--1 1
+.names s[16]_sub s[17]_sub n55_comp n49_comp
+1-- 1
+-1- 1
+--1 1
+.names s[14]_sub s[15]_sub n61_comp n55_comp
+1-- 1
+-1- 1
+--1 1
+.names s[12]_sub s[13]_sub n67_comp n61_comp
+1-- 1
+-1- 1
+--1 1
+.names s[10]_sub s[11]_sub n73_comp n67_comp
+1-- 1
+-1- 1
+--1 1
+.names s[8]_sub s[9]_sub n79_comp n73_comp
+1-- 1
+-1- 1
+--1 1
+.names s[6]_sub s[7]_sub n85_comp n79_comp
+1-- 1
+-1- 1
+--1 1
+.names s[5]_sub n88_comp n85_comp
+1- 1
+-0 1
+.names s[3]_sub s[4]_sub n94_comp n88_comp
+0-- 1
+-0- 1
+--1 1
+.names s[0]_sub s[1]_sub s[2]_sub n97_comp n94_comp
+--0- 1
+---0 1
+00-- 1
+.names s[0]_sub s[1]_sub n97_comp
+11 1
+.end

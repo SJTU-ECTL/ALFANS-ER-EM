@@ -1,0 +1,8 @@
+    {n207} = n229' n332' + n206'
+.model bigNode.pla
+.inputs n229 n332 n206
+.outputs n207
+.names n229 n332 n206 n207
+--0 1
+00- 1
+.end

@@ -1,0 +1,21 @@
+in ioReadNet.c: num_Nodes = 315
+in Mfsb_NetworkMfs: num_Nodes = 315
+The specified node: n39
+The original relation at node n39:
+
+$$ y[0] \ x[7] 
+    0   1   
+  +---+---+
+0 | 1 | 0 |
+  +---+---+
+1 | 1 | 1 |
+  +---+---+
+The flexibility at node n39:
+
+$$ y[0] \ x[7] 
+    0   1   
+  +---+---+
+0 | 1 | 0 |
+  +---+---+
+1 | 1 | 1 |
+  +---+---+
